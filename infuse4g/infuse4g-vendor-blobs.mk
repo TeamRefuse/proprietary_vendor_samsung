@@ -13,8 +13,17 @@
 # limitations under the License.
 
 # Prebuilt libraries that are needed to build open-source libraries
+# Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
+    vendor/samsung/infuse4g/proprietary/libcamera.so:obj/lib/libcamera.so \
+    vendor/samsung/infuse4g/proprietary/libril.so:obj/lib/libril.so \
+    vendor/samsung/infuse4g/proprietary/libsecril-client.so:obj/lib/libsecril-client.so
+
+PRODUCT_COPY_FILES += \
     vendor/samsung/infuse4g/proprietary/pvrsrvinit:system/vendor/bin/pvrsrvinit \
+    vendor/samsung/infuse4g/proprietary/bcm4330_mfg.bin:system/vendor/firmware/bcm4330_mfg.bin \
+    vendor/samsung/infuse4g/proprietary/bcm4330_sta.bin:system/vendor/firmware/bcm4330_sta.bin \
+    vendor/samsung/infuse4g/proprietary/bcm4330_aps.bin:system/vendor/firmware/bcm4330_aps.bin \
     vendor/samsung/infuse4g/proprietary/nvram_net.txt:system/vendor/firmware/nvram_net.txt \
     vendor/samsung/infuse4g/proprietary/melfas-touchkey.kcm.bin:system/vendor/firmware/melfas-touchkey.kcm.bin \
     vendor/samsung/infuse4g/proprietary/libGLES_android.so:system/lib/egl/libGLES_android.so \
@@ -36,6 +45,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/infuse4g/proprietary/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/infuse4g/proprietary/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/infuse4g/proprietary/rild:system/bin/rild \
+    vendor/samsung/infuse4g/proprietary/agpsd:system/vendor/bin/gpsd \
+	vendor/samsung/infuse4g/proprietary/gps.conf:system/vendor/etc/gps.conf \
     vendor/samsung/infuse4g/proprietary/libActionShot.so:system/lib/libActionShot.so \
     vendor/samsung/infuse4g/proprietary/libarccamera.so:system/lib/libarccamera.so \
     vendor/samsung/infuse4g/proprietary/libcamera_client.so:system/lib/libcamera_client.so \
