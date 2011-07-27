@@ -48,6 +48,8 @@ PRODUCT_COPY_FILES += \
 # All the blobs necessary for infuse4g
 PRODUCT_COPY_FILES += \
 	vendor/samsung/infuse4g/proprietary/gps.conf:system/vendor/etc/gps.conf \
+    vendor/samsung/infuse4g/proprietary/ste-cg29xx_ctrl:system/vendor/bin/ste-cg29xx_ctrl \
+    vendor/samsung/infuse4g/proprietary/agpsd:system/vendor/bin/agpsd \
     vendor/samsung/infuse4g/proprietary/gpsd:system/vendor/bin/gpsd \
     vendor/samsung/infuse4g/proprietary/gps.xml:system/vendor/etc/gps.xml \
     vendor/samsung/infuse4g/proprietary/libclientgps.so:system/vendor/lib/libclientgps.so \
