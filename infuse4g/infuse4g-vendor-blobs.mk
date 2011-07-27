@@ -23,17 +23,17 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/infuse4g/proprietary/pvrsrvinit:system/vendor/bin/pvrsrvinit \
     vendor/samsung/infuse4g/proprietary/bcm4330_mfg.bin:system/vendor/firmware/bcm4330_mfg.bin \
     vendor/samsung/infuse4g/proprietary/bcm4330_sta.bin:system/vendor/firmware/bcm4330_sta.bin \
-    vendor/samsung/infuse4g/proprietary/bcm4330.hcd:system/vendor/firmware/bcm4330.hcd \
+    vendor/samsung/infuse4g/proprietary/BCM4330B1_002.001.003.0043.0061.hcd:system/bin/BCM4330B1_002.001.003.0043.0061.hcd \
     vendor/samsung/infuse4g/proprietary/nvram_net.txt:system/vendor/firmware/nvram_net.txt \
     vendor/samsung/infuse4g/proprietary/melfas_touchkey.kcm.bin:system/vendor/firmware/melfas_touchkey.kcm.bin \
     vendor/samsung/infuse4g/proprietary/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/samsung/infuse4g/proprietary/libEGL_POWERVR_SGX540_120.so:system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so \
     vendor/samsung/infuse4g/proprietary/libGLESv1_CM_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
     vendor/samsung/infuse4g/proprietary/libGLESv2_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
-    vendor/samsung/infuse4g/proprietary/gralloc.s5pc110.so:system/vendor/lib/hw/gralloc.s5pc110.so \
-    vendor/samsung/infuse4g/proprietary/copybit.s5pc110.so:system/vendor/lib/hw/copybit.s5pc110.so \
-    vendor/samsung/infuse4g/proprietary/overlay.s5pc110.so:system/vendor/lib/hw/overlay.s5pc110.so \
-    vendor/samsung/infuse4g/proprietary/sensors.SGH-I997R.so:system/vendor/lib/hw/sensors.SGH-I997R.so \
+    vendor/samsung/infuse4g/proprietary/gralloc.s5pc110.so:system/vendor/lib/hw/gralloc.aries.so \
+    vendor/samsung/infuse4g/proprietary/copybit.s5pc110.so:system/vendor/lib/hw/copybit.aries.so \
+    vendor/samsung/infuse4g/proprietary/overlay.s5pc110.so:system/vendor/lib/hw/overlay.aries.so \
+    vendor/samsung/infuse4g/proprietary/sensors.SGH-I997R.so:system/vendor/lib/hw/sensors.aries.so \
 	vendor/samsung/infuse4g/proprietary/libakm.so:system/vendor/lib/libakm.so \
     vendor/samsung/infuse4g/proprietary/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
     vendor/samsung/infuse4g/proprietary/libIMGegl.so:system/vendor/lib/libIMGegl.so \
@@ -50,7 +50,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/infuse4g/proprietary/gps.conf:system/vendor/etc/gps.conf \
     vendor/samsung/infuse4g/proprietary/gpsd:system/vendor/bin/gpsd \
     vendor/samsung/infuse4g/proprietary/gps.xml:system/vendor/etc/gps.xml \
-    vendor/samsung/infuse4g/proprietary/gps.s5pc110.so:system/vendor/lib/hw/gps.s5pc110.so \
+    vendor/samsung/infuse4g/proprietary/gps.s5pc110.so:system/vendor/lib/hw/gps.aries.so \
     vendor/samsung/infuse4g/proprietary/libril.so:system/lib/libril.so \
     vendor/samsung/infuse4g/proprietary/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/infuse4g/proprietary/libsec-ril.so:system/lib/libsec-ril.so \
