@@ -50,6 +50,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/infuse4g/proprietary/gps.conf:system/vendor/etc/gps.conf \
     vendor/samsung/infuse4g/proprietary/gpsd:system/vendor/bin/gpsd \
     vendor/samsung/infuse4g/proprietary/gps.xml:system/vendor/etc/gps.xml \
+    vendor/samsung/infuse4g/proprietary/libclientgps.so:system/vendor/lib/libclientgps.so \
     vendor/samsung/infuse4g/proprietary/gps.s5pc110.so:system/vendor/lib/hw/gps.aries.so \
     vendor/samsung/infuse4g/proprietary/libril.so:system/lib/libril.so \
     vendor/samsung/infuse4g/proprietary/libsecril-client.so:system/lib/libsecril-client.so \
