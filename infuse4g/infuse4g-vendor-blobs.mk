@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES := \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/infuse4g/proprietary/pvrsrvinit:system/vendor/bin/pvrsrvinit \
-    vendor/samsung/infuse4g/proprietary/immvibed:system/vendor/bin/immvibed \
     vendor/samsung/infuse4g/proprietary/btld:system/vendor/bin/btld \
     vendor/samsung/infuse4g/proprietary/bcm4330_mfg.bin:system/vendor/firmware/bcm4330_mfg.bin \
     vendor/samsung/infuse4g/proprietary/bcm4330_sta.bin:system/vendor/firmware/bcm4330_sta.bin \
