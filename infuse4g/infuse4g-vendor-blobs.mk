@@ -33,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/infuse4g/proprietary/libGLESv2_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
     vendor/samsung/infuse4g/proprietary/gralloc.s5pc110.so:system/vendor/lib/hw/gralloc.aries.so \
     vendor/samsung/infuse4g/proprietary/copybit.s5pc110.so:system/vendor/lib/hw/copybit.aries.so \
-    vendor/samsung/infuse4g/proprietary/overlay.s5pc110.so:system/vendor/lib/hw/overlay.aries.so \
     vendor/samsung/infuse4g/proprietary/sensors.SGH-I997R.so:system/vendor/lib/hw/sensors.aries.so \
 	vendor/samsung/infuse4g/proprietary/libakm.so:system/vendor/lib/libakm.so \
     vendor/samsung/infuse4g/proprietary/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
