@@ -28,10 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mesmerizemtd/proprietary/libcamera.so:system/lib/libcamera.so \
     vendor/samsung/mesmerizemtd/proprietary/pppd_runner:system/bin/pppd_runner \
     vendor/samsung/mesmerizemtd/proprietary/gpsd:system/vendor/bin/gpsd \
-<<<<<<< HEAD
-=======
-    vendor/samsung/mesmerizemtd/proprietary/gps.xml:system/vendor/etc/gps.xml \
->>>>>>> upstream/gingerbread
     vendor/samsung/mesmerizemtd/proprietary/gps.conf:system/etc/gps.conf \
     vendor/samsung/mesmerizemtd/proprietary/gps.aries.so:system/lib/hw/gps.aries.so \
     vendor/samsung/mesmerizemtd/proprietary/libms3c_yamaha.so:system/lib/libms3c_yamaha.so \
