@@ -15,7 +15,6 @@
 # Prebuilt libraries that are needed to build open-source libraries
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/samsung/infuse4g/proprietary/libcamera.so:obj/lib/libcamera.so \
     vendor/samsung/infuse4g/proprietary/libril.so:obj/lib/libril.so \
     vendor/samsung/infuse4g/proprietary/libsecril-client.so:obj/lib/libsecril-client.so
 
@@ -58,7 +57,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/infuse4g/proprietary/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/infuse4g/proprietary/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/infuse4g/proprietary/rild:system/bin/rild \
-    vendor/samsung/infuse4g/proprietary/libcamera.so:system/lib/libcamera.so \
+    vendor/samsung/infuse4g/proprietary/libsamsungcamera.so:system/lib/libsamsungcamera.so \
     vendor/samsung/infuse4g/proprietary/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/samsung/infuse4g/proprietary/libActionShot.so:system/lib/libActionShot.so \
     vendor/samsung/infuse4g/proprietary/libarccamera.so:system/lib/libarccamera.so \
