@@ -76,6 +76,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/infuse4g/proprietary/libtvoutfimc.so:system/lib/libtvoutfimc.so \
     vendor/samsung/infuse4g/proprietary/libtvouthdmi.so:system/lib/libtvouthdmi.so \
     vendor/samsung/infuse4g/proprietary/libtvoutservice.so:system/lib/libtvoutservice.so \
+    vendor/samsung/infuse4g/proprietary/libedid.so:system/lib/libedid.so \
+    vendor/samsung/infuse4g/proprietary/libddc.so:system/lib/libddc.so \
     vendor/samsung/infuse4g/proprietary/tvoutserver:system/bin/tvoutserver \
     vendor/samsung/infuse4g/proprietary/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     vendor/samsung/infuse4g/proprietary/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv 
