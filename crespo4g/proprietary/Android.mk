@@ -11,8 +11,9 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
 LOCAL_PATH:=$(call my-dir)
+
+ifeq ($(TARGET_DEVICE),crespo4g)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := WiMAXSettings
@@ -49,3 +50,5 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
+
+endif
